@@ -1,0 +1,68 @@
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+To exit help menu type 'Q'
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+For default tournament bracket:
+> make
+
+For help page:
+> make help
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+How do I configure the bracket?
+
+The folder player_files contains three .txt files. 
+
+Each .txt in 'player_files' is associated with an specific instance of a bracket.
+
+These put a name on each line of the .txt files, followed by a comma
+
+To report winnings add another comma on the line of the player who won
+	- Ex: Line in .txt where 'John' has 4 winnings
+		John,,,,,
+
+	- The number of winnings per player is the (number of commas-1) on each respective line
+	-John has 5 commas, thus he has won 4 times
+	-The bracket is smart, and as long as winnings are properly set in the txt file, 
+		John will be place in the correct position in the tree. 
+
+- Once a player has winnings >= the number of rounds,
+	they will be the winning user at the top of the bracket
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+Example .txt ->
+
+Init:
+
+player1,
+player2,
+player3,
+
+Add another comma to player2's line in the .txt file
+Player 2 Won:
+
+player1,
+player2,,
+player3,
+
+See example.txt in player_files for further clarification...
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+**WARNING:**
+Make sure to be diligent as there is no corrective cases to allow for ease of manipulation. 
+If two opponents competing in a round are both marked as winners in the txt file, 
+the bottom user,in the pair, will be marked as the winner...
+
+Thank you for reading!
+
+Title: Simple Tree Representation of a Tournament Bracket
+Author: Andrew Jordan Siciliano
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
