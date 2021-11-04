@@ -1,7 +1,6 @@
+# Simple-Tree-Representation-of-a-Tournament-Bracket
 
 Author: **Andrew Jordan Siciliano**
-
-Title: **Simple Tree Representation of a Tournament Bracket**
 
 Reason of Birth: *University Of Miami's Chess Club*
 
@@ -34,10 +33,10 @@ To report a winning, add another comma to the line of the player who won.
 	Ex: Line in .txt where 'John' has 4 winnings
 		John,,,,,
 
-The number of winnings per player is the (number of commas-1) on each respective line
+The number of winnings per player is the (number of commas-1) on each respective line.
 
 Once a player has winnings >= the number of rounds,
-they will be the winning user at the top of the bracket.
+they will be the winning player at the top of the bracket.
 
 To update the bracket:
 	
@@ -47,26 +46,21 @@ See the 'Help Page' for more clarity.
 
 **WARNING:**
 Be diligent as there is no corrective cases. 
-If two opponents competing in a round are both marked as winners in the txt file, 
-the bottom user,in the pair, will be marked as the winner...
+If two opponents competing in a round are both marked as winners, 
+the bottom user in the pair will be marked as the winner...
 
 _____________________________________________
 
 **Scripts**
 
-*tournament.py* -> contains the tournament class
+*tournament.py* -> Contains the tournament class...
 
-*default.py* -> default driver file for constructing tournament
+*default.py* -> Default driver file for running tournaments...
 
 _____________________________________________
 
-Thank you,
+*Thank you,*
 
-~Aj
-
-
+*~Aj*
 
 
-
-
-# Simple-Tree-Representation-of-a-Tournament-Bracket
