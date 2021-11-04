@@ -41,9 +41,9 @@ they will be the winning user at the top of the bracket.
 See the 'Help Page' for more clarity. 
 
 **WARNING:**
-Make sure to be diligent as there is no corrective cases.
-If two users competing in a round are both marked as winners, 
-the user last in the order of players will be marked as the winner...
+Be diligent as there is no corrective cases to allow for ease of manipulation. 
+If two opponents competing in a round are both marked as winners in the txt file, 
+the bottom user,in the pair, will be marked as the winner...
 
 _____________________________________________
 
