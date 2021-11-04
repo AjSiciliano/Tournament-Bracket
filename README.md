@@ -38,7 +38,7 @@ The number of winnings per player is the (number of commas-1) on each respective
 Once a player has winnings >= the number of rounds,
 they will be the winning player at the top of the bracket.
 
-To update the bracket to its current state run:
+To update the bracket to its current state:
 	
 	> make
 
