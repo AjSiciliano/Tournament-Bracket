@@ -1,5 +1,5 @@
 
-Author: **Andrew Jordan Siciliano (Aj)**
+Author: **Andrew Jordan Siciliano**
 
 Title: **Simple Tree Representation of a Tournament Bracket**
 
