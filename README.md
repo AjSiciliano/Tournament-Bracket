@@ -13,7 +13,7 @@ _____________________________________________
 	
 	> make
 
-*For Help Page:*
+*For help page:*
 	
 	> make help
 
