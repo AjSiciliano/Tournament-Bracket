@@ -10,9 +10,11 @@ _____________________________________________
 **Commands:**
 
 *To run default tournament bracket:*
+	
 	> make
 
 *For Help Page:*
+	
 	> make help
 
 _____________________________________________
