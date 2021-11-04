@@ -6,6 +6,8 @@ Reason of Birth: *University Of Miami's Chess Club*
 
 _____________________________________________
 
+*First order of business: cd into the 'Tournament-Bracket' directory....*
+
 **Commands:**
 
 *To run default tournament bracket:*
