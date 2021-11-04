@@ -28,9 +28,10 @@ Each .txt in 'player_files' is associated with an specific instance of a bracket
 These put a name on each line of the .txt files, followed by a comma
 
 To report winnings add another comma on the line of the player who won
-	- Ex: Line in .txt where 'John' has 4 winnings
-		John,,,,,
-	- The number of winnings per player is the (number of commas-1) on each respective line
+	Ex: Line in .txt where 'John' has 4 winnings
+		*John,,,,,*
+	The number of winnings per player is the (number of commas-1) on each respective line
+
 
 Once a player has winnings >= the number of rounds,
 they will be the winning user at the top of the bracket.
