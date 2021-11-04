@@ -6,7 +6,7 @@ Reason of Birth: *University Of Miami's Chess Club*
 
 _____________________________________________
 
-*First order of business: cd into the 'Tournament-Bracket' directory....*
+*First order of business, cd into the 'Tournament-Bracket' directory....*
 
 **Commands:**
 
@@ -53,7 +53,7 @@ the bottom user in the pair will be marked as the winner...
 
 *Note:* 
 You may add as many players as you will like per bracket, the program is dynamic.
- 
+
 _____________________________________________
 
 **Scripts**
