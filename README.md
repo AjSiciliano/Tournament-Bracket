@@ -23,22 +23,27 @@ _____________________________________________
 
 The folder player_files contains three .txt files. 
 
-Each .txt in 'player_files' is associated with an specific instance of a bracket.
+Each .txt in 'player_files' is associated with a specific instance of a bracket.
 
-These put a name on each line of the .txt files, followed by a comma
+On each line of the .txt files, put a player name followed by a comma.
+	
+	Ex: John,
 
-To report winnings add another comma on the line of the player who won
+To report a winning, add another comma to the line of the player who won.
 	
 	Ex: Line in .txt where 'John' has 4 winnings
 		John,,,,,
 
 The number of winnings per player is the (number of commas-1) on each respective line
 
-
 Once a player has winnings >= the number of rounds,
 they will be the winning user at the top of the bracket.
 
-See the 'Help Page' for more clarity. 
+To update the bracket:
+	
+	> make
+
+See the 'Help Page' for more clarity.
 
 **WARNING:**
 Be diligent as there is no corrective cases. 
