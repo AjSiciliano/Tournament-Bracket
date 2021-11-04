@@ -1,6 +1,6 @@
-ex_name1,,
+ex_name1,
 ex_name2,
-ex_name3,,,,
+ex_name3,
 ex_name4,
 ex_name5,
 ex_name6,

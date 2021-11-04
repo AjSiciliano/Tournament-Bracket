@@ -56,14 +56,8 @@ class tournament:
 			if(self.round in range(last_round - number_of_wins,last_round+1) and len(player) >= 1):
 				#if this nodes round, depth..., is the maximum or in the range of winning rounds
 				#then the name of this node should be the winning player
-
+				
 				self.name = str(player[0])
-
-			elif(len(player) <= 0 and self.round == last_round):
-				#if not last round or not a winning round, 
-				#then the game is still being played....
-
-				self.name = "undecided"
 
 		if(self.round <= math.floor(math.log2(num_of_players - 1))):
 			#if we are not at the last round then create more nodes, 
