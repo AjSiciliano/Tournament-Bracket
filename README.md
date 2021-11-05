@@ -1,4 +1,4 @@
-# Simple-Tree-Representation-of-a-Tournament-Bracket
+# Simple-Tree-Representation-Of-A-Tournament-Bracket
 
 Author: **Andrew Jordan Siciliano**
 
@@ -45,7 +45,7 @@ To add a late player put an '@' before their name.
 	Ex: If John was late, the line would be...
 		@John
 
-Late players are excluded from the initial randomziation to preserve the state of the game.
+Late players are excluded from the initial randomization to preserve the state of the game.
 
 To update the bracket to its current state:
 	
