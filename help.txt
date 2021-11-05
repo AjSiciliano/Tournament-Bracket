@@ -32,24 +32,30 @@ To report winnings add a comma on the line of the player who won
 - Once a player has winnings >= the number of rounds,
 	they will be the winning user at the top of the bracket
 
+To add a late player put an '@' before their name.
+
+	- Ex: If John was late, the line would be...
+		@John
+	
+Late players are excluded from the initial randomziation to preserve the state of the game.
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 Example .txt ->
 
-Init:
+Init no winnings:
 
 player1
 player2
 player3
 
-Add a comama to player2's line in the .txt file.....
-Player 2 Won:
+'player 2' won and 'player 4' joined late:
 
 player1
 player2,
 player3
+@player4
 
-See example.txt in player_files for further clarification...
+See example.txt in 'player_files' for further clarification...
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 

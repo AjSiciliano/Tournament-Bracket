@@ -1,5 +1,6 @@
-Bob
-Jim
+Bob,,
+Jim,
 Carly
 Zoe
 Dwight
+@New player

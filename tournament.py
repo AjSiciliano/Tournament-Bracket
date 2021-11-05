@@ -61,8 +61,8 @@ class tournament:
 			if(self.round in range(last_round - number_of_wins,last_round+1)):
 				#if this nodes round is the last round or in the range of it's respective winning rounds...
 				#then the name of this node should be the winning player
-
-				self.name = player.replace(',','')
+				
+				self.name = player.replace(',','').replace('@','')
 
 		if(self.round <= math.floor(math.log2(num_of_players - 1))):
 			#if we are not at the last round then create more nodes, 
@@ -80,14 +80,18 @@ class tournament:
 		
 	def run_game(self,file_name):
 
-		list_of_players = None
-
 		#read the rows of players and their respective winnings
 		#from the inputed name for the text.file
+		lines = None
 
-		with open(file_name) as f: list_of_players = f.read().splitlines()
+		with open(file_name) as f: lines = f.read().splitlines()
 		
-		if(len(list_of_players) <= 1):
+		list_of_players = []
+		late_players = []
+
+		for line in lines: list_of_players.append(line) if line.count('@') == 0 else late_players.append(line)
+
+		if(len(lines) <= 1):
 
 			print(colored("At Least 2 Players Needed In Each Bracket!", 'red'))
 
@@ -100,6 +104,7 @@ class tournament:
 			#shuffle the list of competing players
 			random.shuffle(list_of_players)
 
+			list_of_players += late_players
 			#find the next largest power of 2, inclusive of the num of players
 			#this is the size of the tree we need, since each node has two children 
 
@@ -123,7 +128,6 @@ class tournament:
 			#This allows for memory of winnings by utilizing the static file (.txt files)
 			#If human error occurs when setting the winnings, each player's tally of winnings 
 			#won't be lost if the program is terminated
-
 
 	def printify_helper(self,tree,parent_uid):
 		#utilizes the 'treelib' Python library to print and style tree to the console
