@@ -59,7 +59,7 @@ If two opponents competing in a round are both marked as winners,
 the bottom user in the pair will be marked as the winner...
 
 *Note:* 
-You may add as many players as you will like per bracket, the program is dynamic.
+You may add as many players as you like, the program is dynamic.
 
 _____________________________________________
 
