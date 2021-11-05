@@ -25,8 +25,14 @@ class tournament:
 
 		#Logic for the coloring of names in bracket
 		def colorfy(): #returns the marked color depending on the value of self.name
-			if(self.name != 'undecided' and self.name != "pass" and last_round != self.round): return 'green'
-			elif(self.round == last_round): return 'yellow'
+
+			#green -> winner
+			#yellow -> 
+			#cyan -> name, first round no winner
+
+			if(self.name != 'undecided' and self.name != "pass" and last_round != self.round): return 'green' 
+			elif(self.round == last_round and self.name != "pass"): return 'cyan'
+			elif(self.round == last_round and self.name == "pass"): return 'yellow'
 			else: return None
 
 		#text-logic for printing rounds
@@ -55,7 +61,7 @@ class tournament:
 			if(self.round in range(last_round - number_of_wins,last_round+1)):
 				#if this nodes round is the last round or in the range of it's respective winning rounds...
 				#then the name of this node should be the winning player
-				
+
 				self.name = player.replace(',','')
 
 		if(self.round <= math.floor(math.log2(num_of_players - 1))):
@@ -108,7 +114,6 @@ class tournament:
 
 			#this is the number of players, including non-existent opponents
 			self.num_of_players = len(list_of_players) #init the number of leaf nodes
-
 
 			#we can use denote the number of commas in each player row,
 			#as the number of winnings per player name
