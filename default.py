@@ -9,7 +9,7 @@ devisions = ['advanced','intermediate','beginer']
 print("\n\n" + "*"*55 + "\n")
 
 for devision in devisions:
-
+	
 	print(colored("\n"+devision.upper()+" BRACKET", 'magenta',attrs=["underline"]))
 
 	try:
@@ -22,6 +22,6 @@ for devision in devisions:
 		tree.show(line_type="ascii-em")
 
 	except:
-		print(colored('An Error Occured: Please Make Sure To Use Valid Formatting In The .txt Files!', 'red'))
+		print(colored('An Error Occured!', 'red'))
 
 	print("\n" + "*"*55 + "\n")

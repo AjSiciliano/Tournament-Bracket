@@ -19,14 +19,13 @@ The folder player_files contains three .txt files.
 
 Each .txt in 'player_files' is associated with an specific instance of a bracket.
 
-These put a name on each line of the .txt files, followed by a comma
+These put a name on each line of the .txt files.
 
-To report winnings add another comma on the line of the player who won
+To report winnings add a comma on the line of the player who won
 	- Ex: Line in .txt where 'John' has 4 winnings
-		John,,,,,
+		John,,,,
 
-	- The number of winnings per player is the (number of commas-1) on each respective line
-	-John has 5 commas, thus he has won 4 times
+	- The number of winnings per player is the number of commas on each respective line.
 	-The bracket is smart, and as long as winnings are properly set in the txt file, 
 		John will be place in the correct position in the tree. 
 
@@ -39,16 +38,16 @@ Example .txt ->
 
 Init:
 
-player1,
-player2,
-player3,
+player1
+player2
+player3
 
-Add another comma to player2's line in the .txt file
+Add a comama to player2's line in the .txt file.....
 Player 2 Won:
 
-player1,
-player2,,
-player3,
+player1
+player2,
+player3
 
 See example.txt in player_files for further clarification...
 
