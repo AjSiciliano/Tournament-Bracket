@@ -27,7 +27,7 @@ class tournament:
 		def colorfy(): #returns the marked color depending on the value of self.name
 
 			#green -> winner
-			#yellow -> 
+			#yellow -> pass
 			#cyan -> name, first round no winner
 
 			if(self.name != 'undecided' and self.name != "pass" and last_round != self.round): return 'green' 

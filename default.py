@@ -6,11 +6,11 @@ from termcolor import colored
 
 devisions = ['advanced','intermediate','beginer']
 
-print("\n\n" + "*"*55 + "\n")
+print("\n" + "*"*55 + "\n")
 
 for devision in devisions:
 	
-	print(colored("\n"+devision.upper()+" BRACKET", 'magenta',attrs=["underline"]))
+	print(colored("\n"+devision.upper()+" BRACKET", 'magenta',attrs=["underline","bold"]))
 
 	try:
 
