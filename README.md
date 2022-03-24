@@ -58,6 +58,28 @@ Be diligent as there is no corrective cases.
 If two opponents competing in a round are both marked as winners, 
 the bottom user in the pair will be marked as the winner...
 
+**There is a new found issue where if a bracket has 
+an overflow of leaves that are passes, that player will need a
+replacement tag. 
+
+EX: 
+
+Nayan
+Aryan Jhaveri,,
+Fransisco,,
+Michael kavounas
+Will Huggins
+
+turns to...
+
+Nayan,
+Aryan Jhaveri,
+Fransisco,,
+Michael kavounas
+Will Huggins
+@return
+@Aryan_Update,,**
+
 *Note:* 
 You may add as many players as you like, the program is dynamic.
 
